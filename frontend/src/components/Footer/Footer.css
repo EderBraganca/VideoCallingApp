@@ -1,0 +1,14 @@
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: #242424;
+}
+
+.footerSection{
+    display: flex;
+    margin-top: 1vh;
+    justify-content: space-evenly;
+}
