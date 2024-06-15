@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.btn{
+  margin-top: 2vh;
+  width: 100%;
+}
+
+.nameInput {
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  border: 1px solid transparent;
+  width: 100%;
+  border-radius: 8px;
+  margin-right: 1vw;
+}
+
+.inputSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
