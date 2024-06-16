@@ -3,12 +3,11 @@
     "version": "1.0.0",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "HTTPS=true SSL_CRT_FILE=server.cert SSL_KEY_FILE=server.key react-scripts start"
     },
     "dependencies": {
-      "cors": "^2.8.5",
-      "express": "^4.17.1",
-      "socket.io": "^4.0.1"
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "socket.io": "^4.0.1"
     }
-  }
-  
+}
